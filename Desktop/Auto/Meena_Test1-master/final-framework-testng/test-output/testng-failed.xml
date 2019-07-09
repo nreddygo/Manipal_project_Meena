@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.training.sanity.tests.RETC_015">
+      <class name="com.training.regression.tests.PostExcelTest">
         <methods>
-          <include name="validLoginTest"/>
-          <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
           <include name="setUpBeforeClass"/>
+          <include name="NewPost" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.training.sanity.tests.RETC_015 -->
+      </class> <!-- com.training.regression.tests.PostExcelTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
